@@ -10,11 +10,8 @@
  *
  * starting with 'g', are ips with open BGP port tcp 179 ( routers! ).
  * starting with 'h', will be ips we found with port tcp http 80 open ( web servers! ).
- * Pues, al mandar el SYN a dichas ips, estas responderan a la IP de nuestras
- * cabeceras ( la vicitma Spoofeada! ) kon un SYN/ACK; floodeandola
- * si se kumplen los rekisitos.
+ * 
  * feel free to add ports to the list, modify it. 
- * Bits and pieces for socket raws etc. from around there, modified a bit. enjoy.
  *
 */ 
 
